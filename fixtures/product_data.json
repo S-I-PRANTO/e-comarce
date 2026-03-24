@@ -1,0 +1,183 @@
+[
+  {
+    "model": "product.categroy",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "description": "Electronic items"
+    }
+  },
+  {
+    "model": "product.categroy",
+    "pk": 2,
+    "fields": {
+      "name": "Fashion",
+      "description": "Clothing and style"
+    }
+  },
+  {
+    "model": "product.categroy",
+    "pk": 3,
+    "fields": {
+      "name": "Books",
+      "description": "All kinds of books"
+    }
+  },
+  {
+    "model": "product.categroy",
+    "pk": 4,
+    "fields": {
+      "name": "Home",
+      "description": "Home essentials"
+    }
+  },
+  {
+    "model": "product.categroy",
+    "pk": 5,
+    "fields": {
+      "name": "Sports",
+      "description": "Sports items"
+    }
+  },
+
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone 14",
+      "description": "Apple smartphone",
+      "price": "1200.00",
+      "stock": 10,
+      "images": null,
+      "categroy": 1,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung TV",
+      "description": "Smart TV",
+      "price": "800.00",
+      "stock": 5,
+      "images": null,
+      "categroy": 1,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "name": "T-Shirt",
+      "description": "Cotton T-shirt",
+      "price": "20.00",
+      "stock": 50,
+      "images": null,
+      "categroy": 2,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "name": "Jeans",
+      "description": "Denim jeans",
+      "price": "40.00",
+      "stock": 30,
+      "images": null,
+      "categroy": 2,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+      "name": "Python Book",
+      "description": "Learn Python",
+      "price": "30.00",
+      "stock": 25,
+      "images": null,
+      "categroy": 3,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "name": "Django Book",
+      "description": "Learn Django",
+      "price": "35.00",
+      "stock": 20,
+      "images": null,
+      "categroy": 3,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "name": "Chair",
+      "description": "Comfortable chair",
+      "price": "60.00",
+      "stock": 15,
+      "images": null,
+      "categroy": 4,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "name": "Table",
+      "description": "Wooden table",
+      "price": "100.00",
+      "stock": 8,
+      "images": null,
+      "categroy": 4,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 9,
+    "fields": {
+      "name": "Football",
+      "description": "Professional football",
+      "price": "25.00",
+      "stock": 40,
+      "images": null,
+      "categroy": 5,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 10,
+    "fields": {
+      "name": "Cricket Bat",
+      "description": "Wooden cricket bat",
+      "price": "70.00",
+      "stock": 18,
+      "images": null,
+      "categroy": 5,
+      "created_at": "2026-02-20T10:00:00Z",
+      "update_at": "2026-02-20T10:00:00Z"
+    }
+  }
+]
