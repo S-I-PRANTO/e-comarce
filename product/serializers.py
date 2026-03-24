@@ -27,6 +27,7 @@ class ProductSerializer(serializers.ModelSerializer):
         return price
 
 class ProductImageSerializer(serializers.ModelSerializer):
+    images=serializers.ImageField()
     class Meta:
         model=ProductImages
         fields=['id','images']

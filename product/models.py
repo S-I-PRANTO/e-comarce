@@ -3,6 +3,7 @@ from uuid import uuid4
 from django.conf import settings
 from django.core.validators import MaxValueValidator,MinValueValidator
 from product.validation import validate_file
+from cloudinary.models import CloudinaryField
 class Categroy(models.Model):
     name=models.CharField(max_length=100)
     description=models.TextField(blank=True,null=True)
@@ -28,7 +29,7 @@ class Product(models.Model):
     
 class ProductImages(models.Model):
     product=models.ForeignKey(Product,on_delete=models.CASCADE,related_name='images')
-    images=models.ImageField(upload_to='products/images',validators=[validate_file])
+    images=CloudinaryField('images')
 class Review(models.Model):
     product=models.ForeignKey(Product,on_delete=models.CASCADE)
     user=models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)

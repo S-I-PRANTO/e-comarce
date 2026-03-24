@@ -48,7 +48,7 @@
       "description": "Apple smartphone",
       "price": "1200.00",
       "stock": 10,
-      "images": null,
+
       "categroy": 1,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -62,7 +62,7 @@
       "description": "Smart TV",
       "price": "800.00",
       "stock": 5,
-      "images": null,
+
       "categroy": 1,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -76,7 +76,7 @@
       "description": "Cotton T-shirt",
       "price": "20.00",
       "stock": 50,
-      "images": null,
+
       "categroy": 2,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -90,7 +90,7 @@
       "description": "Denim jeans",
       "price": "40.00",
       "stock": 30,
-      "images": null,
+
       "categroy": 2,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -104,7 +104,7 @@
       "description": "Learn Python",
       "price": "30.00",
       "stock": 25,
-      "images": null,
+
       "categroy": 3,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -118,7 +118,7 @@
       "description": "Learn Django",
       "price": "35.00",
       "stock": 20,
-      "images": null,
+
       "categroy": 3,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -132,7 +132,7 @@
       "description": "Comfortable chair",
       "price": "60.00",
       "stock": 15,
-      "images": null,
+
       "categroy": 4,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -146,7 +146,7 @@
       "description": "Wooden table",
       "price": "100.00",
       "stock": 8,
-      "images": null,
+
       "categroy": 4,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -160,7 +160,7 @@
       "description": "Professional football",
       "price": "25.00",
       "stock": 40,
-      "images": null,
+
       "categroy": 5,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
@@ -174,7 +174,7 @@
       "description": "Wooden cricket bat",
       "price": "70.00",
       "stock": 18,
-      "images": null,
+
       "categroy": 5,
       "created_at": "2026-02-20T10:00:00Z",
       "update_at": "2026-02-20T10:00:00Z"
